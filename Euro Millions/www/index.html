@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>EuroMillions</title>
+    <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=no; target-densityDpi=device-dpi" />
+    <!-- EuroMillions references -->
+    <link href="css/index.css" rel="stylesheet" />
+    <link href="css/jquery.mobile.theme-1.4.5.min.css" rel="stylesheet" />
+    <link href="css/jquery.mobile.structure-1.4.5.min.css" rel="stylesheet" />
+    <link href="css/jquery.mobile.inline-svg-1.4.5.min.css" rel="stylesheet" />
+    <link href="css/jquery.mobile.inline-png-1.4.5.min.css" rel="stylesheet" />
+    <link href="css/jquery.mobile.icons-1.4.5.min.css" rel="stylesheet" />
+    <link href="css/jquery.mobile.external-png-1.4.5.min.css" rel="stylesheet" />
+    <link href="css/jquery.mobile-1.4.5.min.css" rel="stylesheet" />
+
+    <script src="scripts/jquery-2.1.4.min.js"></script>
+    <script src="scripts/jquery.mobile-1.4.5.min.js"></script>
+
+</head>
+<body>
+    <div data-role="page" id="home">
+        <div data-theme="a" data-role="header">
+            <h3>
+                Movie List
+            </h3>
+        </div>
+        <div data-role="content">
+            <div class="example-wrapper" data-iscroll>
+                <ul data-role="listview" id="movie-list" data-theme="a"></ul>
+            </div>
+        </div>
+        <div data-theme="a" data-role="footer">
+            <h1>Copyright 2015</h1>
+        </div>
+    </div>
+    <div data-role="page" id="headline">
+        <div data-theme="a" data-role="header">
+            <a href="#home" class="ui-btn-left" data-transition="slide" data-direction="reverse">Back</a>
+            <h3>
+                Movie Info
+            </h3>
+        </div>
+        <div data-role="content">
+            <ul data-role="listview" id="movie-data" data-theme="a"></ul>
+        </div>
+    </div>
+
+
+
+
+    <!-- Cordova reference, this is added to your app when it's built. -->
+    <script src="cordova.js"></script>
+    <script src="scripts/platformOverrides.js"></script>
+    <script src="scripts/jquery-2.1.4.min.js"></script>
+
+    <script src="scripts/index.js"></script>
+</body>
+</html>
